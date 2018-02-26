@@ -4,7 +4,7 @@ from .models import Question, Choice
 
 #admin.site.register(Choice)
 
-class ChoiceInline(admin.StackedInline):
+class ChoiceInline(admin.TabularInline):
     model = Choice
     extra = 3
 
