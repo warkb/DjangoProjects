@@ -1,6 +1,7 @@
 Вот здесь остановился: 
-https://youtu.be/BQQrR0_UVsE?list=PLSWnD6rL-m9adebgpvvOLH5ASGJiznWdg&t=469
+https://www.youtube.com/watch?v=ZkICZB6STnM&list=PLSWnD6rL-m9adebgpvvOLH5ASGJiznWdg&index=5
 
 Sublime
-BUILD 3008
+http://www.sublimetext.com/3
+BUILD 3019
 

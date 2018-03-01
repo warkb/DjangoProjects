@@ -17,7 +17,11 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import url, include
 
+admin.autodiscover()
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^landing/', include('landing.urls'))
+    url(r'^landing/', include('landing.urls')),
+    url(r'^orders/', include('orders.urls')),
+    url(r'^products/', include('products.urls'))
 ]
