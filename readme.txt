@@ -1,5 +1,5 @@
 Вот здесь остановился: 
-https://www.youtube.com/watch?v=ZkICZB6STnM&list=PLSWnD6rL-m9adebgpvvOLH5ASGJiznWdg&index=5
+https://youtu.be/YiWPWMJacPI?list=PLSWnD6rL-m9adebgpvvOLH5ASGJiznWdg&t=572
 
 Sublime
 http://www.sublimetext.com/3
