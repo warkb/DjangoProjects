@@ -523,71 +523,43 @@
 			"file": "readme.txt",
 			"settings":
 			{
-				"buffer_size": 149,
+				"buffer_size": 167,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webstore/landing/views.py",
+			"contents": "kwork.ru\n",
 			"settings":
 			{
-				"buffer_size": 446,
-				"encoding": "UTF-8",
+				"buffer_size": 9,
+				"line_ending": "Unix",
+				"name": "kwork.ru"
+			}
+		},
+		{
+			"contents": "Searching 16 files for \"form\"\n\n/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/admin.py:\n   14      fieldsets = [\n   15          (None, {'fields': ['question_text']}),\n   16:         ('Date information', {'fields': ['pub_date'],\n   17              'classes': ['collapse']})\n   18      ]\n\n/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols/templates/pols/detail.html:\n    3  {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}\n    4  \n    5: <form action=\"{% url 'pols:vote' question.id %}\" method=\"post\">\n    6  {% csrf_token %}\n    7  {% for choice in question.choice_set.all %}\n    .\n   10  {% endfor %}\n   11  <input type=\"submit\" name=\"Vote\" />\n   12: </form>\n\n3 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "mysite/pols/templates/pols/detail.html",
+			"settings":
+			{
+				"buffer_size": 479,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "webstore/webstore/settings.py",
+			"file": "webstore/landing/forms.py",
 			"settings":
 			{
-				"buffer_size": 3218,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webstore/webstore/urls.py",
-			"settings":
-			{
-				"buffer_size": 958,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webstore/orders/models.py",
-			"settings":
-			{
-				"buffer_size": 1197,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webstore/products/models.py",
-			"settings":
-			{
-				"buffer_size": 1253,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webstore/landing/static/style.css",
-			"settings":
-			{
-				"buffer_size": 553,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "webstore/landing/admin.py",
-			"settings":
-			{
-				"buffer_size": 278,
-				"encoding": "UTF-8",
+				"buffer_size": 152,
 				"line_ending": "Unix"
 			}
 		}
@@ -615,10 +587,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "ad",
+		"height": 235.0,
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push Current Branch"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
 			[
 				"ad",
 				"Git: Add..."
@@ -626,10 +606,6 @@
 			[
 				"ins",
 				"Package Control: Install Package"
-			],
-			[
-				"com",
-				"Git: Commit"
 			],
 			[
 				"codein",
@@ -642,10 +618,6 @@
 			[
 				"pus",
 				"Git: Push Current Branch"
-			],
-			[
-				"push",
-				"Git: Push"
 			],
 			[
 				"pull",
@@ -911,21 +883,26 @@
 	[
 		"/home/kurbatovbn/YaDisk/DjangoProjects",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/static",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/static/media"
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/templates",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/templates/landing",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/webstore"
 	],
 	"file_history":
 	[
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/admin.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/static/style.css",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/products/models.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/orders/models.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/webstore/urls.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/webstore/settings.py",
+		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/views.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/forms.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/templates/landing/landing.html",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/models.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/tmp.js",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/tmp.html",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/views.py",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/webstore/settings.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/urls.py",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/webstore/urls.py",
-		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/admin.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/migrations/0001_initial.py",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/db.sqlite3",
 		"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing/templates/forms.py",
@@ -1040,20 +1017,18 @@
 		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dot1p 2018-01-12 15:59:11",
 		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dot1p 2018-01-12 15:28:28",
 		"/home/kurbatovbn/git/ETPv3/PythonTestProject/tests/snmp/snmp_cut_str.py",
-		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dot1p 2018-01-11 14:57:57",
-		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_dont_trust 2018-01-11 14:55:34",
-		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dot1p 2018-01-11 14:51:16",
-		"/home/kurbatovbn/git/ETPv3/PythonTestProject/hal/bcm_phoenix/qos/qos_cli.py"
+		"/home/kurbatovbn/git/ETPv3/PythonTestProject/log/tests.qos.qos_trust_dot1p 2018-01-11 14:57:57"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 41.0
 	},
 	"find_in_files":
 	{
 		"height": 119.0,
 		"where_history":
 		[
+			"/home/kurbatovbn/YaDisk/DjangoProjects/mysite/pols",
 			"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/",
 			"/home/kurbatovbn/YaDisk/DjangoProjects/webstore/landing",
 			"/home/kurbatovbn/git/ETPv3/PythonTestProject/",
@@ -1165,6 +1140,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"form",
+			"pub_date",
 			"order",
 			"Subscribers",
 			"pols",
@@ -1290,9 +1267,7 @@
 			"show port all",
 			"self.__CheckPlatform",
 			"10",
-			"__CheckNetworkSettingsOnSwitch",
-			"OnLldpMedWithEndpointDevices_7457_3_2",
-			"self.__CheckPlatform"
+			"__CheckNetworkSettingsOnSwitch"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1338,15 +1313,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 149,
+						"buffer_size": 167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								167,
+								167
 							]
 						],
 						"settings":
@@ -1363,90 +1338,81 @@
 				},
 				{
 					"buffer": 1,
-					"file": "webstore/landing/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 446,
+						"buffer_size": 9,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								362,
-								362
+								9,
+								9
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"auto_name": "kwork.ru",
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "webstore/webstore/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1107,
-								1107
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 378.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "webstore/webstore/urls.py",
+					"buffer": 2,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 958,
+						"buffer_size": 718,
 						"regions":
 						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										195,
+										199
+									],
+									[
+										470,
+										474
+									],
+									[
+										686,
+										690
+									]
+								],
+								"scope": ""
+							}
 						},
 						"selection":
 						[
 							[
-								926,
-								926
+								472,
+								472
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"detect_indentation": false,
+							"git_gutter_is_enabled": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1456,69 +1422,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "webstore/orders/models.py",
+					"buffer": 3,
+					"file": "mysite/pols/templates/pols/detail.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1197,
+						"buffer_size": 479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								644,
-								644
+								117,
+								117
 							]
 						],
 						"settings":
 						{
-							"SL.107.region_keys":
-							[
-								"sublime_linter.protected_regions",
-								"SL.pyflakes.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
-								"SL.pyflakes.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot"
-							],
-							"auto_complete": false,
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 120.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "webstore/products/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								195,
-								195
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"git_gutter_is_enabled": true,
-							"rulers":
-							[
-								80
-							],
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1528,56 +1451,30 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "webstore/landing/static/style.css",
-					"semi_transient": false,
+					"buffer": 4,
+					"file": "webstore/landing/forms.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 553,
+						"buffer_size": 152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								532,
-								532
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "webstore/landing/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 278,
-						"regions":
-						{
-						},
-						"selection":
-						[
+							"SL.102.region_keys":
 							[
-								171,
-								171
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
+								"SL.pyflakes.Highlights.|region.redish markup.deleted.sublime_linter markup.error.sublime_linter|32",
+								"SL.pyflakes.Gutter.region.redish markup.deleted.sublime_linter markup.error.sublime_linter.dot",
+								"sublime_linter.protected_regions"
+							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
@@ -1585,7 +1482,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1593,7 +1490,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -1654,7 +1551,7 @@
 	"project": "DjangoProjects.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 74.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1678,7 +1575,7 @@
 		[
 			[
 				"",
-				"~git/ETPv3/PythonTestProject/ETPv3.sublime-project"
+				"~PrivateProjects/MyTwitter/myTwitter.sublime-project"
 			],
 			[
 				"d",
